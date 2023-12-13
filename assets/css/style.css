@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #222; /* Negro */
+    --secondary-color: #ffa500; /* Naranja */
+    --background-color: #f8f8f8; /* Gris claro */
+    --text-color: #333; /* Texto principal */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    position: relative;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section {
+    padding: 4em 0;
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 1.5em;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff8c00; /* Naranja más claro */
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ... (otros estilos) */
